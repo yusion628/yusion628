@@ -1,0 +1,155 @@
+/* styles.css */
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><text x="0" y="15" font-size="20">🌶️</text></svg>'), auto;
+  background-color: #5b0101;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0px;
+  background-color: #5b0101;
+}
+
+#carouselExampleAutoplaying1 {
+      width: 600px; /* 设置Carousel宽度 */
+      height: 750px; /* 设置Carousel高度 */
+      position: absolute; /* 绝对定位 */
+      top: 80px; /* 距离顶部的距离 */
+      left: 0px; /* 距离左侧的距离 */
+      z-index: 1; /* 使Carousel位于文本之下 */
+    }
+
+
+nav {
+  background: #5b0101;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: #fff
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+div {max-width: 1200px;
+margin: 0 auto;
+padding: 0 10px;
+font-family: 'Indie Flower', cursive;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-text {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 25rem;
+    line-height: 75rem;
+    letter-spacing: -1.606rem;
+    color: rgb(238, 237, 230);
+    left: -10px;
+}
+
+
+.narrow-spacing {
+    letter-spacing: -0.2em; /* 负值表示缩小字距 */
+  }
+  /* 导航栏中的平面设计文字设置为白色 */
+  .navbar-nav .nav-link {
+    color: white;
+  }
+
+
+  /* 调整图片大小，使其适应页面 */
+  .container-fluid img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .img-fluid {
+    width: 100%; /* 设置图片宽度为父元素宽度的百分比 */
+    height: auto; /* 确保图片按比例缩放 */
+  }
+
+  .col {
+    margin-bottom: 400px; /* 添加底部外边距 */
+  }
+
+.justify-content-around {
+  margin-bottom: 350px; /* 添加底部外边距 */
+}
+
+
+#hero {
+  text-align: center;
+  padding: 100px 0;
+  background: url('hero.jpg') center/cover no-repeat;
+  color: #fff;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.info-card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+.btn {
+
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto; /* To maintain aspect ratio */
+    margin-bottom: 350px;
+}
+
+
+
+#news {
+  margin-top: 50px;
+}
+
+.news-card {
+  margin-bottom: 20px;
+}
+
+.news-card img {
+  max-width: 100%;
+}
