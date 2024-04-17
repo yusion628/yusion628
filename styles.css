@@ -15,12 +15,12 @@ body {
 }
 
 #carouselExampleAutoplaying1 {
-      width: 600px; /* 设置Carousel宽度 */
-      height: 750px; /* 设置Carousel高度 */
-      position: absolute; /* 绝对定位 */
-      top: 80px; /* 距离顶部的距离 */
-      left: 0px; /* 距离左侧的距离 */
-      z-index: 1; /* 使Carousel位于文本之下 */
+      width: 600px; 
+      height: 750px; 
+      position: absolute;
+      top: 80px;
+      left: 0px;
+      z-index: 1;
     }
 
 
@@ -70,15 +70,15 @@ font-family: 'Indie Flower', cursive;
 
 
 .narrow-spacing {
-    letter-spacing: -0.2em; /* 负值表示缩小字距 */
+    letter-spacing: -0.2em; 
   }
-  /* 导航栏中的平面设计文字设置为白色 */
+
   .navbar-nav .nav-link {
     color: white;
   }
 
 
-  /* 调整图片大小，使其适应页面 */
+
   .container-fluid img {
     max-width: 100%;
     height: auto;
@@ -86,16 +86,16 @@ font-family: 'Indie Flower', cursive;
 
 
   .img-fluid {
-    width: 100%; /* 设置图片宽度为父元素宽度的百分比 */
-    height: auto; /* 确保图片按比例缩放 */
+    width: 100%; 
+    height: auto; 
   }
 
   .col {
-    margin-bottom: 400px; /* 添加底部外边距 */
+    margin-bottom: 400px; 
   }
 
 .justify-content-around {
-  margin-bottom: 350px; /* 添加底部外边距 */
+  margin-bottom: 350px;
 }
 
 
@@ -136,7 +136,7 @@ font-family: 'Indie Flower', cursive;
 
 video {
     max-width: 100%;
-    height: auto; /* To maintain aspect ratio */
+    height: auto; 
     margin-bottom: 350px;
 }
 
